@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.white,
-        child:Image.asset('assets/images/flag.png')
+        child:Image.asset('assets/images/apps_monitoring.gif')
         // child:FlutterLogo(size:MediaQuery.of(context).size.height)
     );
   }

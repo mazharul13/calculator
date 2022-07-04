@@ -110,7 +110,7 @@ class LoginScreenReal extends State<LoginScreen> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text("Login please"),
+        title: Text("Login please 888"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -192,7 +192,7 @@ class LoginScreenReal extends State<LoginScreen> {
                         // inorder to display something on the Canvas
                         future: getData(txtEditContr1.text, txtEditContr2.text),
                       )
-                    : Text("Waiting for login..."),
+                    : Text("Waiting for login... yes"),
               ),
             ],
           ),
